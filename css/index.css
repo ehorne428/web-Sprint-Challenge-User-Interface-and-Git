@@ -223,9 +223,8 @@ margin-bottom: 1.5%;
  text-decoration:none;
  font-size: 14px;
  margin-top: 3%;
+}
 
-  }
- 
 #headerimg {
     display:flex;
     justify-content: center;
@@ -460,4 +459,27 @@ footer nav a{
 }
 .img{
     margin-bottom:2.5%;
+}
+.img:hover{
+    border: 3px solid palevioletred;
+}
+#button1:hover{
+    background-color:black;
+    border:2px solid palevioletred;
+    color:white;
+}
+#button2:hover{
+    background-color:black;
+    border:2px solid palevioletred;
+    color:white;
+}
+#button3:hover{
+    background-color:black;
+    border:2px solid palevioletred;
+    color:white;
+}
+#button4:hover{
+    background-color:black;
+    border:2px solid palevioletred;
+    color:white;
 }
