@@ -57,21 +57,36 @@ html, body {
 }
 .flex {
 display:flex;
+justify-content:center;
+width: 100%;
+margin-bottom: 1.5%;
 }
-.flex nav {
+.links nav {  
     display:flex;
-    flex-direction:row;
-    justify-content:space-between;
+    justify-content: space-between;
 }
+.links nav a{
+    color:black;
+  font-family: 'Roboto', sans-serif;  
+  display:flex;
+  justify-content: center;
+  margin: 0 40px;
+ text-decoration:none;
+ font-size: 14px;
+ margin-top: 3%;
+
+  }
+ 
 #headerimg {
     display:flex;
     justify-content: center;
+    margin-bottom: 1.5%;
 }
 
 header h1{
     font-size: 40px;
     font-family: 'Rubik', sans-serif;
-    margin: 0 5%;
+    margin-right: 3%;
 }
 
 h2, h3, h4, h5 {
