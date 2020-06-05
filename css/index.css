@@ -360,13 +360,14 @@ footer nav a {
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
+    margin:0 25%;
     border-bottom: 1px dashed black;
 }
 .container_about-page p {
-    margin: 0 27%;
+    margin-bottom: 2.5%;
 }
 .container_about-page h2 {
-    margin-right: 42.5%;
+    margin-right:93.5%;
 }
 .together {
     display:flex;
@@ -395,28 +396,68 @@ footer nav a{
    font-size: 14px;
 }
 .sectionflex{
-    border: 5px solid orange;
     display:flex;
     flex-wrap: wrap;
     margin:0 25%;
+    margin-top: 2.5%;
 }
 .sectionflex div{
-    border:3px solid blue; 
     height:100%;
+    
 }
 #strategy{
-    width:50%;
+    width:45%;
+    border-bottom: 1px dashed black;
+    margin-right:2.5%;
+    margin-bottom: 5%;
 }
 #work{
-    width:50%;
+    width:45%;
+    border-bottom: 1px dashed black;
+    margin-bottom:5%;
+    margin-left:2.5%;
 }
 #places{
-    width:50%;
+    width:45%;
+    border-bottom: 1px dashed black;
+    margin-right:2.5%;
 }
 #collab{
-    width:50%;
+    width:45%;
+    border-bottom: 1px dashed black;
+    margin-left: 2.5%;
 }
-#strategy.button{
-    border:3px solid black:
-    
+#button1 {
+    border: 2px solid black;
+    padding: 3%;
+    font-size: 17px;
+    border-radius: 5px;
+    margin-bottom: 5%;
+    margin-top:3%;
+}
+#button2 {
+    border: 2px solid black;
+    padding: 3%;
+    font-size: 17px;
+    border-radius: 5px;
+    margin-bottom: 5%;
+    margin-top:3%;
+}
+#button3{
+    border: 2px solid black;
+    padding: 3%;
+    font-size: 17px;
+    border-radius: 5px;
+    margin-bottom: 5%;
+    margin-top:3%;
+}
+#button4{border: 2px solid black;
+    padding: 3%;
+    font-size: 17px;
+    border-radius: 5px;
+    margin-bottom: 5%;
+    margin-top:3%;
+}
+.img{
+    margin-bottom:2.5%;
 }
