@@ -394,4 +394,29 @@ footer nav a{
    text-decoration:none;
    font-size: 14px;
 }
-
+.sectionflex{
+    border: 5px solid orange;
+    display:flex;
+    flex-wrap: wrap;
+    margin:0 25%;
+}
+.sectionflex div{
+    border:3px solid blue; 
+    height:100%;
+}
+#strategy{
+    width:50%;
+}
+#work{
+    width:50%;
+}
+#places{
+    width:50%;
+}
+#collab{
+    width:50%;
+}
+#strategy.button{
+    border:3px solid black:
+    
+}
