@@ -25,7 +25,7 @@ time, mark, audio, video {
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
+footer, header hgroup, menu, nav, section {
 	display: block;
 }
 body {
@@ -55,8 +55,41 @@ html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
 }
+.flex {
+display:flex;
+justify-content:center;
+width: 100%;
+margin-bottom: 1.5%;
+}
+.links nav {  
+    display:flex;
+    justify-content: space-between;
+}
+.links nav a{
+    color:black;
+  font-family: 'Roboto', sans-serif;  
+  display:flex;
+  justify-content: center;
+  margin: 0 40px;
+ text-decoration:none;
+ font-size: 14px;
+ margin-top: 3%;
 
-h1, h2, h3, h4, h5 {
+  }
+ 
+#headerimg {
+    display:flex;
+    justify-content: center;
+    margin-bottom: 1.5%;
+}
+
+header h1{
+    font-size: 40px;
+    font-family: 'Rubik', sans-serif;
+    margin-right: 3%;
+}
+
+h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
@@ -104,13 +137,42 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+ #one.box {
+     background-color:teal;
+ }
+ #two.box{
+     background-color:gold;
+ }
+ #three.box{
+     background-color: cadetblue;
+ }
+ #four.box{
+     background-color: coral;
+ }
+ #five.box{
+     background-color: crimson;
+ }
+ #six.box{
+     background-color: forestgreen;
+ }
+ #seven.box{
+     background-color: darkorchid;
+ }
+ #eight.box{
+     background-color: hotpink;
+ }
+ #nine.box{
+     background-color: indigo;
+ }
+ #ten.box{
+     background-color: dodgerblue;
+ }
 
 .bottom-content {
     display: flex;
